@@ -1,0 +1,2 @@
+/api/v1/*		http://gordon-portfolio-backend-env.eba-n57y3b2h.ap-southeast-2.elasticbeanstalk.com:3002/api/v1/:splat    200
+/*  /index.html  200

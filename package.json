@@ -1,0 +1,20 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install": "(cd UI && npm i) && (cd server && npm i)",
+    "start": "(cd UI && npm start) & (cd server && npm start)",
+    "test": "(cd UI && npm test) & (cd BE server npm test)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgz886/portfolio.git"
+  },
+  "author": "Gordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgz886/portfolio/issues"
+  },
+  "homepage": "https://github.com/sgz886/portfolio#readme"
+}

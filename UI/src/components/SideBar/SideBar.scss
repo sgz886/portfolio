@@ -1,0 +1,46 @@
+.portrait {
+  width: 100%;
+  min-height: 625px;
+  padding-bottom: 25px;
+
+  .portrait_name {
+    line-height: 18px;
+    padding: 18px;
+    .name {
+      text-transform: uppercase;
+      font-size: 22px;
+      font-weight: bold;
+      // color: var(--main-color);
+      color: black;
+    }
+    .title {
+      font-size: 13px;
+      color: var(--main-text-color);
+    }
+  }
+  .portrait_img {
+    width: 100%;
+    margin-top: -15px;
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  }
+  .timeline {
+    padding: 0 0 25px 8px;
+    margin-top: -28px;
+    .item_text {
+      font-size: 12.5px;
+      color: var(--main-text-color);
+    }
+    .item_title {
+      display: inline;
+      padding-right: 4px;
+      color: black;
+      text-transform: capitalize;
+      font-weight: normal;
+      font-size: 12.5px;
+    }
+  }
+  .portrait_button {
+    text-align: center;
+  }
+}
