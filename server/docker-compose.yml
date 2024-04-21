@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  portfolio-backend:
+    build: .
+    ports:
+      - "3002:3002"
+    environment:
+      NODE_ENV: production
+    command: node ./src/index.js
